@@ -1,15 +1,16 @@
 import React, { useRef } from 'react';
+// import dotenv from "dotenv";
 import emailjs from '@emailjs/browser';
 import "./contact.css"
 // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-
+// dotenv.config();
 const Contact = () => {
     const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3yk510o', 'template_x32jcdl', form.current, 'CNKSwAMk-6eOV0qIh')
+    emailjs.sendForm(process.env.SERVICE_ID,process.env.TEMPLATE_ID , form.current, process.env.PUBLIC_KEY)
     //   .then((result) => {
     //       console.log(result.text);
     //   }, (error) => {

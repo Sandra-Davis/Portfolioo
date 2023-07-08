@@ -40,12 +40,12 @@ const Qualifications = () => {
                     </div>
 
                     <div className="qualification__data">
-                        <div></div>
+                        {/* <div></div> */}
                         <div>
                         <span className="qualification__rounder"></span>
                         <span className="qualification__line"></span>
                         </div>
-                    <div>
+                        <div>
                         <h3 className="qualification__title">Higher Secondary </h3>
                         <span className="qualification__subtitle">Chavara Public School,Pala</span>
                         <div className="qualification__calender">
@@ -54,17 +54,17 @@ const Qualifications = () => {
                     </div>
                     </div>
                     <div className="qualification__data">
-                    <div>
-                        <h3 className="qualification__title">Engineering Degree</h3>
-                        <span className="qualification__subtitle">College of Engineering,Trivandrum</span>
-                        <div className="qualification__calender">
-                            <i className="uil uil-calender-alt"></i>2020-2024
+                        <div>
+                            <h3 className="qualification__title">Engineering Degree</h3>
+                            <span className="qualification__subtitle">College of Engineering,Trivandrum</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calender-alt"></i>2020-2024
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                    <span className="qualification__rounder"></span>
-                        <span className="qualification__line"></span>
-                    </div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
                     </div>
 
                     {/* <div className="qualification__data">
